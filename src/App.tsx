@@ -1,10 +1,10 @@
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routes";
 
 function App() {
 
   return (
-    <div>
-      <h1>Criando Rotas com React Router DOM</h1>
-    </div>
+    <RouterProvider router={router} />
   )
 }
 
