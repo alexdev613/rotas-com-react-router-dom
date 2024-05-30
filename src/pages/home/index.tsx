@@ -7,7 +7,8 @@ export function Home() {
         <span>Esta é a página principal do site!</span>
         <br /><br />
 
-        <Link to="/sobre">Ir para página Sobre</Link>
+        <Link to="/sobre">Ir para página Sobre</Link><br />
+        <Link to="/contato" >Contatos</Link>
     </div>
   )
 }
